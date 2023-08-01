@@ -1,6 +1,8 @@
-# n_baz
+# krishal_Satta
 
 A new Flutter project.
+Individual project using flutter, firebase.
+
 
 ## Getting Started
 

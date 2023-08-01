@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
 
                         Image.asset(
-                          "assets/images/banner.jpg",
+                          "assets/images/banner.png",
                           height: 200,
                           width: double.infinity,
                           fit: BoxFit.fill,
@@ -70,6 +70,12 @@ class _HomeScreenState extends State<HomeScreen> {
                           height: 20,
                         ),
                         WelcomeText(authVM),
+                        // Container(
+                        //     margin: EdgeInsets.symmetric(horizontal: 10),
+                        //     child: Text(
+                        //       "Featured",
+                        //       style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                        //     )),
                         Container(
                           margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                           child: SingleChildScrollView(
@@ -140,7 +146,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Row(
               children: [
                 Expanded(child: Container()),
-                Expanded(child: Image.asset("assets/images/logo.png", height: 50, width: 50,)),
+                Expanded(child: Image.asset("assets/images/logo.png", height: 60, width: 60,)),
                 Expanded(
                     child: Align(
                       alignment: Alignment.centerRight,
@@ -273,3 +279,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+// import 'package:flutter/material.dart';
+//
+

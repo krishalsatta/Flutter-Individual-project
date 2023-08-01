@@ -91,7 +91,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.favorite),
-              label:"Favorite"
+              label:"Favourite"
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.person),
@@ -99,6 +99,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
           ),
         ],
       ),
+
+
     );
   }
 
